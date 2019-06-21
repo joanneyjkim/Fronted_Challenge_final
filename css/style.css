@@ -8,6 +8,7 @@ body {
 h1 {
   font-size: 120%;
   font-weight: bolder;
+  color: #34769C;
 }
 
 h2 {
@@ -24,18 +25,22 @@ h4 {
   font-weight: lighter;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
+img {
+  width: 375px;
 }
 
 nav {
-  background-color: #34769C;
   width: 375px;
   display: block;
-  padding: 1%;
-  margin: 0;
   position: fixed;
+}
 
+.blank {
+  height: 359px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 .container {
@@ -57,7 +62,7 @@ nav {
   line-height: 50%;
 }
 
-.location:hover { background-color: #555555}
+.location:hover { background-color: #999999}
 
 .bound {
   float: right;
