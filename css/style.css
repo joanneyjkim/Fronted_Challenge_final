@@ -14,7 +14,10 @@ h1 {
 h2 {
   font-size: 100%;
   font-weight: normal;
+  float: right;
+  padding-top: 2%;
 }
+
 h3 {
   font-size: 100%;
   font-weight: bold;
@@ -29,14 +32,13 @@ img {
   width: 375px;
 }
 
-nav {
-  width: 375px;
-  display: block;
+figure {
+margin: 0 auto;
   position: fixed;
 }
 
 .blank {
-  height: 359px;
+  height: 360px;
 }
 
 *, *:before, *:after {
@@ -48,27 +50,34 @@ nav {
   width: 375px;
 }
 
-.restaurant-list {
-  display: block;
-  padding-top: 10px;
-}
 
-.location {
-  border: .02px solid #333;
+ol {
+  margin: 0 auto;
+  border: .02px solid #888888;
   background-color: #ffffff;
-  float: left;
-  padding: 2%;
+  padding: 3%;
   width: 375px;
   line-height: 50%;
 }
 
-.location:hover { background-color: #999999}
+ol:hover { background-color: #eaeaea}
+.reroute:hover { background-color: #e6db5a}
+.outofservice:hover { background-color: #d47070}
 
-.bound {
-  float: right;
-  padding-top: 2%;
+.reroute {
+  margin: 0 auto;
+  border: .02px solid #888888;
+  padding: 3%;
+  width: 375px;
+  line-height: 50%;
+  background-color: #FFF362;
 }
 
-.content {
-  display:inline-block;
+.outofservice {
+  margin: 0 auto;
+  border: .02px solid #888888;
+  padding: 3%;
+  width: 375px;
+  line-height: 50%;
+  background-color: #FF8686;
 }
